@@ -16,7 +16,7 @@ function destructivelyAddElementToEndOfArray(a, b) {
  return a
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(a, b) {
+function destructivelyRemoveElementFromBeginningOfArray(a) {
   a.shift(b)
   return a
 }
