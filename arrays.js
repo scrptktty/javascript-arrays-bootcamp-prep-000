@@ -31,6 +31,5 @@ function destructivelyRemoveElementFromEndOfArray(a, b) {
 }
 
 function removeElementFromEndOfArray(a) {
-  a.length = (a.length - 1)
-  return a
+  return a.length = (a.length - 1)
 }
