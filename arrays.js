@@ -16,12 +16,12 @@ function destructivelyAddElementToEndOfArray(a, b) {
  return a
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(a) {
+function destructivelyRemoveElementFromBeginningOfArray(a, b) {
   a.shift(b)
   return a
 }
 
-function removeElementFromBeginningOfArray(a) {
+function removeElementFromBeginningOfArray(a, b) {
   a.slice(b, a.length-1)
   return a
 }
@@ -32,6 +32,6 @@ function destructivelyRemoveElementFromEndOfArray(a, b) {
 }
 
 function removeElementFromEndOfArray(a) {
-  a = a.slice(0, a.length - 1)
+  a.length = (a.length - 1)
   return a
 }
